@@ -43,8 +43,9 @@ section{
     background-position: right;
 }
 .center-header{
-    text-align: center;
+    text-align: left;
     color: rgb(8, 89, 170);
+    margin-left: 5%;
 }
 .review-post{
     box-shadow: 10px 10px 40px gray;
