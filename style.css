@@ -5,7 +5,10 @@ body{
 h1{
     font-size: 50px;
 }
-.name-highlight{
+p{
+    color: dimgray;
+}
+.orange-highlight{
     color: orange;
 }
 .half-width{
@@ -24,6 +27,7 @@ h1{
 }
 section{
     height: 500px;
+    padding-bottom: 150px;
 }
 .link-button{
     text-decoration: none;
@@ -32,4 +36,37 @@ section{
     border-radius: 5px;
     color: white;
     font-weight: 700;
+}
+.spouse-area{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.center-header{
+    text-align: center;
+    color: rgb(8, 89, 170);
+}
+.review-post{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 80%;
+    background-color: white;
+}
+.testimonial{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#first-review{
+border-left: 7px solid;
+border-image: linear-gradient(180deg, red, #ff00ea);
+border-image-slice: 1;
+}
+#secend-review{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+#footer{
+    text-align: center;
 }
